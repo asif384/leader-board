@@ -132,3 +132,22 @@ hr{
   font-style: 14px;
   padding: 0px 4px;
  }
+
+ /* -------------
+ Media Queries
+ ------------- */
+
+ /* Mobile screen */
+ @media only screen and (max-width: 688px) {
+   .container{
+      width: 100%;
+   }
+   .players, .blogs, .courses{
+      grid-template-columns: repeat(1, 1fr);
+
+   }
+   .player, .blog{
+      flex-direction: column;
+   }
+
+ }
