@@ -1,4 +1,5 @@
 /* .........fonts ..........*/
+ @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poppins:wght@500&family=Roboto&family=Trispace&family=Ubuntu&family=Work+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poppins:wght@500&family=Roboto&family=Trispace&family=Ubuntu&family=Work+Sans:wght@700&display=swap');
 
 /* common things/utilities */
@@ -90,7 +91,44 @@ hr{
  /*................
   courses section starts here 
   .................*/
+
+  .courses{
+    display: flex;
+  }
  .course .course-bannar img{
     width: 224px;
     height: 104px;
+ }
+
+ .course-info{
+    display: flex;
+    align-items: center;
+ }
+ .course-author{
+    color: #ED6B4F;
+    font-family: 'Roboto', sans-serif;
+ }
+ .sr-gap{
+    padding-right: 7px;
+ }
+ .fa-star{
+    font-style: 12px;
+ }
+ .fa-star.filled{
+    color: #FFC014;
+ }
+ .fa-star.empty{
+    color:#AEAEAE;
+ }
+ .duration{
+    background: #FFE4E8;
+    border-radius: 14px;
+    font-style: 14px;
+    height: 29;
+    width: 94;
+ }
+ .duration, .fa-clock{
+  color: #FF4A60;
+  font-style: 14px;
+  padding: 0px 4px;
  }
